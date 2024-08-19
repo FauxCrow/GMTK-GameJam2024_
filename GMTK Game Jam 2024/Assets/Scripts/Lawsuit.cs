@@ -1,19 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
+using DG.Tweening;
+using TMPro;
 
-public class Clinic : App
+public class Lawsuit : App
 {
-
+    [SerializeField] TextMeshProUGUI caseNumber;
+    [SerializeField] TextMeshProUGUI details;
+    [SerializeField] TextMeshProUGUI payoff, fightInCourt;
 
     public override void OpenApp()
     {
         if(window.activeInHierarchy){
             CloseApp();
             return;
-        }        
-        
+        }    
+
         window.SetActive(true);
         window.transform.localScale = new Vector3(0,0,0);
         window.transform.DOScale(new Vector3(1,1,1), animationDuration);
@@ -27,10 +30,10 @@ public class Clinic : App
         });
     }
 
-    public void PurchaseBottle(){
-        //Insert functions
-        //Deduct Money
-        //Reset bottle on screen
-        //Set Delivery if needed
+    public void SetLawsuit(LawsuitData data){
+        caseNumber.text = "Case Number:" + Random.Range(0, 999).ToString("000");
+        details.text = data.LawsuitDetails;
+        payoff.text = "Payoff:" + "\n" + "$" + data.PayoffValue.ToString();
+        fightInCourt.text = "Fight:" + "\n" + "$" + data.FightValue.ToString();
     }
 }
