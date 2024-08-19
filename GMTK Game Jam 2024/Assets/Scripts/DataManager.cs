@@ -11,6 +11,8 @@ public class DataManager : MonoBehaviour
     public float Morality { get; set; }
     public float Reputation { get; set; }
     public int Licenses { get; set; }
+    public GameObject SignaturePrefab;
+    public Sprite SignatureSprite;
 
     // store UI sliders
     public SliderBar moneyBar;
@@ -19,11 +21,11 @@ public class DataManager : MonoBehaviour
 
     void Awake()
     {
-        reset();
+        Reset();
     }
 
     // function: sets all variables to starting number
-    void reset(){
+    void Reset(){
         Money = 0;
         Morality = 100;
         Reputation = 100;
@@ -32,7 +34,7 @@ public class DataManager : MonoBehaviour
 
     // function: increase morality when pill is popped (we love drugs)
     // balancing -- currently, minus 1 morality earned every 10 licenses approved, at 500 licenses pills do nothing
-    void restoreMorality(){
+    void RestoreMorality(){
         int offset = (Licenses/10);
         Morality += 50 - offset;
 
@@ -40,7 +42,7 @@ public class DataManager : MonoBehaviour
     }
 
     // function: increase reputation when pill is popped (we love drugs)
-    void declineLawsuit(int reputationChange){
+    void DeclineLawsuit(int reputationChange){
         Reputation += reputationChange;
 
         reputationBar.startUpdate();
@@ -48,7 +50,7 @@ public class DataManager : MonoBehaviour
 
     // function: set values when license is accepted
     // +/- should be included when function is called
-    void acceptLicense(int moneyChange, int moralityChange, int reputationChange){
+    void AcceptLicense(int moneyChange, int moralityChange, int reputationChange){
         Money += moneyChange;
         Morality += moralityChange;
         Reputation += reputationChange;
@@ -80,7 +82,7 @@ public class DataManager : MonoBehaviour
 
     // function: set values when license is declined
     // +/- should be included when function is called
-    void declineLicense(int moralityChange, int reputationChange){
+    void DeclineLicense(int moralityChange, int reputationChange){
         Morality += moralityChange;
         Reputation += reputationChange;
 
@@ -103,5 +105,11 @@ public class DataManager : MonoBehaviour
         reputationBar.startUpdate();
 
         Licenses++;
+    }
+
+    public void SpawnSignature(){
+        GameObject signature = Instantiate(SignaturePrefab);
+        signature.GetComponent<SpriteRenderer>().sprite = SignatureSprite;
+        // set transform to license page but not rn cause i'm LAZY and SICK and TIRED and EEPY
     }
 }
