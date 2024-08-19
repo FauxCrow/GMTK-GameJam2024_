@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class OfficerMonitor : MonoBehaviour
 {
-    public GameObject officeCamera, desktopCamera;
+    public Camera officeCamera, desktopCamera;
+    public RenderTexture monitorTex;
 
     void OnMouseDown()
     {
-        officeCamera.SetActive(false);
-        desktopCamera.SetActive(true);
+        desktopCamera.targetTexture = null;
     }
+
+    //For some reason setting the targetTexture to null changes the camera
+    // set the texture back to siwtch back to office scene
 }
