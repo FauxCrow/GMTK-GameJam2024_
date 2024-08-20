@@ -5,6 +5,8 @@ using UnityEngine;
 public class OfficerMonitor : MonoBehaviour
 {
     [SerializeField] GameManager gm;
+    [SerializeField] App[] apps; 
+    [SerializeField] Vector2[] appPositions;
 
     public Camera officeCamera, desktopCamera;
     public RenderTexture monitorTex;
@@ -27,6 +29,13 @@ public class OfficerMonitor : MonoBehaviour
 
     public void Reset(){
         desktopCamera.targetTexture = monitorTex;
+        GetComponent<BoxCollider2D>().enabled = true;
+
+        
+        for(int i = 0; i < apps.Length; i++){
+            apps[i].CloseApp();
+            apps[i].GetComponent<RectTransform>().anchoredPosition = appPositions[i];
+        }
     }
 
     //For some reason setting the targetTexture to null changes the camera

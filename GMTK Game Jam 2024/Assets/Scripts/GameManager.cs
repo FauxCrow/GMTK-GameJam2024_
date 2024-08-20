@@ -79,6 +79,7 @@ public class GameManager : MonoBehaviour
         timeManager.ResetTime();
 
         monitor.gameObject.SetActive(true);
+        pillManager.ClearPills();
         pillManager.SpawnPill();
         rightArm.SetActive(true);
 

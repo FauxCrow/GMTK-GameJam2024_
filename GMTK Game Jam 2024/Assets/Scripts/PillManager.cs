@@ -11,6 +11,13 @@ public class PillManager : MonoBehaviour
     [SerializeField] Queue<GameObject> pills = new Queue<GameObject>();
     [SerializeField] BoxCollider2D spawnRegion;
 
+    public void ClearPills(){
+        if(transform.childCount <= 0) return;
+        for(int i = 0; i < transform.childCount; i++){
+            Destroy(transform.GetChild(i).gameObject);
+        }
+    }
+
     public void SpawnPill()
     {
         Debug.Log("SpawnPill() from PillManager");

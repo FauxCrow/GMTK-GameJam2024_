@@ -1053,6 +1053,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 730277863}
+  apps:
+  - {fileID: 814049241}
+  - {fileID: 1573515992}
+  - {fileID: 1377926205}
+  - {fileID: 1902758610}
+  appPositions:
+  - {x: -799.6, y: 349.28}
+  - {x: -611.6, y: 348}
+  - {x: -799.6, y: -67.48}
+  - {x: -799.6, y: 133.96}
   officeCamera: {fileID: 963194227}
   desktopCamera: {fileID: 876828484}
   monitorTex: {fileID: 8400000, guid: bcc25c3b618f16548b1076db5518401d, type: 2}
