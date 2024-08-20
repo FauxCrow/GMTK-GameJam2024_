@@ -14,10 +14,12 @@ public class LawsuitReader : MonoBehaviour
     }
 
     public void GenerateLawsuit(){
-        int lawsuitNo = UnityEngine.Random.Range(0, lawsuits.lawsuits.Length);
-        string lawsuitInfo = lawsuits.lawsuits[lawsuitNo].details;
-        int fight = lawsuits.lawsuits[lawsuitNo].fight;
-        int payOff = lawsuits.lawsuits[lawsuitNo].pay;
+        int lawsuitNo = UnityEngine.Random.Range(0, 100);
+
+        int fight = lawsuits.lawsuits[0].fight + UnityEngine.Random.Range(1, 10) * 200;
+        int payOff = lawsuits.lawsuits[0].pay + UnityEngine.Random.Range(1, 10) * 1000;
+
+        string lawsuitInfo = lawsuits.lawsuits[0].details + payOff;
 
         // use above data to put in your lawsuit
         app.SetLawsuit(lawsuitNo, lawsuitInfo, fight, payOff);

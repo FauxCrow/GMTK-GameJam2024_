@@ -51,7 +51,7 @@ public class LicenseReader : MonoBehaviour
         int chosenLicense = EmailCheck();
 
         // Generate license 3 times, using i as the license number out of 3
-        for (int i = 1; i < 4; i++){
+        for (int i = 0; i < 3; i++){
             int randomLicense = GenerateLicense(lowerLimit, upperLimit, i);
 
             if (i == chosenLicense){
@@ -72,15 +72,17 @@ public class LicenseReader : MonoBehaviour
 
     // function: generate a lawsuit on a random chance after risky choices
     public void LawsuitCheck(){
+        /*
         if (RandomInt(0, randomChance) == 0){
             lawsuit.GenerateLawsuit();
-        }
+        }*/
+        lawsuit.GenerateLawsuit();
     }
 
     // function: generate an email for a random license on a random chance
     public int EmailCheck(){
         if (RandomInt(0, randomChance) == 0){
-            return RandomInt(1,4);
+            return RandomInt(0,3);
         }
         
         return -1;  // unreachable number
@@ -94,25 +96,25 @@ public class LicenseReader : MonoBehaviour
         int randomLicense = RandomInt(lowerLimit, upperLimit);
         // int riskScale = Mathf.RoundToInt(randomLicense/10);     // one-tenths of license id as risk scale
 
-        string companyName = licenses.licenses[randomLicense].company;
-        string productName = licenses.licenses[randomLicense].product;
-        string termsConditions = licenses.licenses[randomLicense].conditions;
-        int productionCosts = licenses.licenses[randomLicense].costs;
-        int profit = licenses.licenses[randomLicense].profit;
-        int morality = licenses.licenses[randomLicense].morality;
-        int reputation = licenses.licenses[randomLicense].reputation;
+        string mcompanyName = licenses.licenses[randomLicense].company;
+        string mproductName = licenses.licenses[randomLicense].product;
+        int mproductionCosts = licenses.licenses[randomLicense].costs;
+        int mprofit = licenses.licenses[randomLicense].profit;
+        string mtermsConditions = licenses.licenses[randomLicense].conditions;
+        int mmorality = licenses.licenses[randomLicense].morality;
+        int mreputation = licenses.licenses[randomLicense].reputation;
 
         // use above data to put in your license, depending on license no (1-3)
 
         LicenseData data = new()
         {
-            companyName = companyName,
-            productName = productName,
-            termsConditions = termsConditions,
-            prodCosts = productionCosts,
-            profit = profit,
-            morality = morality,
-            rep = reputation,
+            companyName = mcompanyName,
+            productName = mproductName,
+            prodCosts = mproductionCosts,
+            profit = mprofit,
+            termsConditions = mtermsConditions,
+            morality = mmorality,
+            rep = mreputation,
             number = licenseNo
         };
 
