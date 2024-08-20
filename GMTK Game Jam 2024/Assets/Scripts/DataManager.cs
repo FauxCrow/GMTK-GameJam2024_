@@ -24,6 +24,7 @@ public class DataManager : MonoBehaviour
 
     [SerializeField] PillManager pillManager;
 
+
     // function: sets all variables to starting number
     public void Reset(){
         Money = 100;
@@ -42,12 +43,8 @@ public class DataManager : MonoBehaviour
     // Guard Function: ensure maximum / minimum on variables
     void CheckMinMax(){
         Money = Mathf.Clamp(Money, 0, Mathf.Infinity);
-
-        if (Morality > 100){ Morality = 100; }
-        else if (Morality < 0){ Morality = 0; }
-
-        if (Reputation > 100){ Reputation = 100;  }
-        else if (Reputation < 0){ Reputation = 0; }
+        Morality = Mathf.Clamp(Morality, 0, 100);
+        Reputation = Mathf.Clamp(Reputation, 0 ,100);
     }
 
     // function: buy drugs woo
