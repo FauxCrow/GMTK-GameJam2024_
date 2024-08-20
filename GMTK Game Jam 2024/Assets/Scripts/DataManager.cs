@@ -72,9 +72,9 @@ public class DataManager : MonoBehaviour
 
     // function: restore reputation when lawsuit is quietly paid off
     // balancing -- currently minus 1 reputaton restored every 20 licences approved, at 400 licenses paying off lawsuits does nothing
-    void PayLawsuit(){
-        if (Money > 5000){
-            Money -= 5000;
+    public void PayLawsuit(int cost){
+        if (Money > cost){
+            Money -= cost;
             Reputation += Offset(Licenses, 20, 20);   // max restored amount, no. of licenses before change
 
             CheckMinMax();
@@ -86,9 +86,9 @@ public class DataManager : MonoBehaviour
 
     // function: decrease reputation when lawsuit makes it to court
     // balancing -- currently minus 1 reputaton removed every 20 licences approved, at 400 licenses fighting lawsuits does nothing
-    void FightLawsuit(){
-        if (Money > 1000){
-            Money -= 1000;
+    public void FightLawsuit(int cost){
+        if (Money > cost){
+            Money -= cost;
             Reputation -= Offset(Licenses, 20, 20);         // max decreased amount, no. of licenses before change
 
             CheckMinMax();
@@ -101,13 +101,11 @@ public class DataManager : MonoBehaviour
     // function: set values when license is accepted
     // +/- should be included when function is called
     public void AcceptLicense(float moneyChange, float moralityChange, float reputationChange){
-        Debug.Log("be " + Money + " and " + moneyChange);
         Money += moneyChange;
         Morality += moralityChange;
         Reputation += reputationChange;
 
         //CheckMinMax();
-        Debug.Log("af " + Money + " and " + moneyChange);
         moneyBar.StartUpdate();
         moralityBar.StartUpdate();
         reputationBar.StartUpdate();

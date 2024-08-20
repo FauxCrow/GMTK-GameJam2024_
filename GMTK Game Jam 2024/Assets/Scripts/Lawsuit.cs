@@ -10,6 +10,12 @@ public class Lawsuit : App
     [SerializeField] TextMeshProUGUI details;
     [SerializeField] TextMeshProUGUI payoff, fightInCourt;
 
+    [SerializeField] DataManager dataManager;
+
+    int payOff;
+    int fightCourt;
+    bool canPay = false;
+
     public override void OpenApp()
     {
         if(window.activeInHierarchy){
@@ -35,5 +41,23 @@ public class Lawsuit : App
         details.text = info;
         payoff.text = "Payoff:" + "\n" + "$" + pay;
         fightInCourt.text = "Fight:" + "\n" + "$" + fight;
+
+        payOff = pay;
+        fightCourt = fight;
+        canPay = true;
+    }
+
+    public void pay(){
+        if (canPay){
+            dataManager.PayLawsuit(payOff);
+            canPay = false;
+        }
+    }
+
+    public void fight(){
+        if (canPay){
+            dataManager.FightLawsuit(fightCourt);
+            canPay = false;
+        }
     }
 }

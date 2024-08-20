@@ -2,9 +2,9 @@
     "lawsuits": [
         {
             "licenseNo": 0,
-            "details": "Plantiff brings forth the following causes of action and alleges the following:\n1. On about XXXX XXX of 19XX, Plaintiff was in their kitchen when a stray rocket hit their window and caused injury.\nWHEREFORE, Plaintiff seeks compensatory damages in the amount of $1000.",
-            "fight": 500,
-            "pay": 1000
+            "details": "Plantiff sued Bottom Line.Co over alleged defects in their products.\nWHEREFORE, Plaintiff seeks compensatory damages in the amount of $",
+            "fight": 0,
+            "pay": 0
         }
     ]
 }
