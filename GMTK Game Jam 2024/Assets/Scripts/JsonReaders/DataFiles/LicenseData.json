@@ -1,39 +1,689 @@
 {
     "licenses": [
         {
-            "company": "The Booing Company",
-            "product": "Aircrafts",
-            "costs": 150000,
+            "company": "Blue Deli",
+            "product": "Salt",
+            "costs": 500,
             "profit": 100,
-            "conditions": "a lot",
-            "morality": 0,
-            "reputation": 10
-        },
-        {
-            "company": "",
-            "product": "",
-            "costs": 0,
-            "profit": 0,
-            "conditions": "",
+            "conditions": "The terms and conditions of this agreement are confidential and shall not be disclosed to any third party without the prior written consent of Blue Deli, except as required by law.",
             "morality": 0,
             "reputation": 0
         },
         {
-            "company": "IronClad Industries",
-            "product": "StrikeForce Systems",
-            "costs": 150000,
+            "company": "The Booing Company",
+            "product": "Aircrafts",
+            "costs": 1500,
+            "profit": 80,
+            "conditions": "Booing reserves the right to export the product to any company.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Bell Corps",
+            "product": "Mason Jars",
+            "costs": 2100,
+            "profit": 90,
+            "conditions": "Both parties agree to keep all Confidential Information in strict confidence, and not to use it for any purpose other than as necessary for the performance of this agreement.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Hollins",
+            "Product": "Tablecloth",
+            "Costs": 70000,
+            "Profit": 65,
+            "conditions": "Hollin’s reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Blue Deli",
+            "product": "Seeds",
+            "costs": 1800,
             "profit": 100,
-            "conditions": "a lot",
-            "morality": 10,
-            "reputation": 10
+            "conditions": "The terms and conditions of this agreement are confidential and shall not be disclosed to any third party without the prior written consent of Blue Deli, except as required by law. (+5 morality)",
+            "morality": 5,
+            "reputation": 0
+        },
+        {
+            "company": "Bell Corps",
+            "product": "Beverages",
+            "costs": 9000,
+            "profit": 75,
+            "conditions": "Both parties agree to keep all Confidential Information in strict confidence, and not to use it for any purpose other than as necessary for the performance of this agreement.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Lorris Tech.",
+            "product": "Radio",
+            "costs": 2400,
+            "profit": 90,
+            "conditions": "Bottom Line.Co shall not be liable to the Licensee, whether in contract, tort (including negligence) or otherwise for special, indirect, consequential or special damages, or for any loss of profits, opportunity or data, under any circumstances whatsoever, in connection with this Agreement.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Lorris Tech.",
+            "product": "Night Vision Goggles",
+            "costs": 18000,
+            "profit": 100,
+            "conditions": "Bottom Line.Co shall not be liable to the Licensee, whether in contract, tort (including negligence) or otherwise for special, indirect, consequential or special damages, or for any loss of profits, opportunity or data, under any circumstances whatsoever, in connection with this Agreement.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Maggen",
+            "Product": "Table Leg Caps",
+            "Costs": 50000,
+            "Profit": 75,
+            "conditions": "Maggen reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Yong Heng Medicinal",
+            "Product": "Chinese Medicinal Tablet",
+            "Costs": 20000,
+            "Profit": 100,
+            "conditions": "Yong Heng Medicinal reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Ascremb Fashion",
+            "Product": "Hair Roller",
+            "Costs": 35000,
+            "Profit": 75,
+            "conditions": "Ascremb Fashion reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Callegin Rallegin",
+            "Product": "Metal Tacks",
+            "Costs": 60000,
+            "Profit": 80,
+            "conditions": "Callegin Rallegin reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "I&L",
+            "Product": "Vintage Film",
+            "Costs": 10000,
+            "Profit": 100,
+            "conditions": "I&L reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Avor",
+            "Product": "Cardboard",
+            "Costs": 20000,
+            "Profit": 50,
+            "conditions": "Avor reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Yong Heng Medicinal",
+            "Product": "Chinese Medicinal Tablet",
+            "Costs": 20000,
+            "Profit": 100,
+            "conditions": "Yong Heng Medicinal reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "B.H. Jenkins",
+            "Product": "Denim Jean",
+            "Costs": 120000,
+            "Profit": 120,
+            "conditions": "B.H. Jenkins reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Zhyler Tab",
+            "Product": "Aluminum Cans",
+            "Costs": 100000,
+            "Profit": 200,
+            "conditions": "Zhyler Tab reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "The Booing Company",
+            "product": "Satellites",
+            "costs": 32000,
+            "profit": 180,
+            "conditions": "Booing reserves the right to export the product to any company. Booing pledges 10% of its profits into developing satellite access for countries in crisis. (+5 morality)",
+            "morality": 5,
+            "reputation": 0
+        },
+        {
+            "company": "Hyporell",
+            "Product": "Plastic Shelves",
+            "Costs": 15000,
+            "Profit": 150,
+            "conditions": "Hyporell reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Blue Deli",
+            "product": "Gunpowder",
+            "costs": 18000,
+            "profit": 200,
+            "conditions": "The terms and conditions of this agreement are confidential and shall not be disclosed to any third party without the prior written consent of Blue Deli, except as required by law. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Bell Corps",
+            "product": "Circuit Board",
+            "costs": 20000,
+            "profit": 140,
+            "conditions": "Both parties agree to keep all Confidential Information in strict confidence, and not to use it for any purpose other than as necessary for the performance of this agreement.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Ellie & Elliott",
+            "Product": "Glass Beakers",
+            "Costs": 15000,
+            "Profit": 150,
+            "conditions": "Ellie & Elliott reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages. (+5 morality)",
+            "morality": 5,
+            "reputation": 0
+        },
+        {
+            "company": "Slicen",
+            "Product": "Climbing Chalk",
+            "Costs": 25000,
+            "Profit": 200,
+            "conditions": "Slicen reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Burger Queen",
+            "Product": "Climbing Chalk",
+            "Costs": 45000,
+            "Profit": 230,
+            "conditions": "Burger Queen is not responsible for any dietary restrictions, allergies, or sensitivities, and we encourage customers to review ingredient information and consult with our staff if necessary. By placing an order, you agree to these terms and acknowledge that our liability is limited to the value of the items purchased.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "M&H",
+            "Product": "Glow-in-the-dark Bow Ties",
+            "Costs": 11000,
+            "Profit": 140,
+            "conditions": "We reserve the right to refuse returns or exchanges on final sale licences, customized products, or items that do not meet our return criteria. Please refer to our website for detailed instructions on how to return items by mail.(-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Twop Rock Constructions",
+            "Product": "Railings",
+            "Costs": 30000,
+            "Profit": 250,
+            "conditions": "Twop Rock Constructions reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages. (+5 morality, +5 reputation)",
+            "morality": 5,
+            "reputation": 5
+        },
+        {
+            "company": "Pear",
+            "Product": "I-clock",
+            "Costs": 15000,
+            "Profit": 240,
+            "conditions": "Pear is not responsible for any data loss, damage, or inconvenience caused by hardware failures, and you are encouraged to back up your data regularly. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Dend Ripe",
+            "Product": "Lighter",
+            "Costs": 30000,
+            "Profit": 170,
+            "conditions": "Dend Ripe reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Boulie",
+            "Product": "Ziptie",
+            "Costs": 10000,
+            "Profit": 180,
+            "conditions": "Boulie reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Cheesus",
+            "Product": "Leather Bound Books",
+            "Costs": 70000,
+            "Profit": 260,
+            "conditions": "Cheesus reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Lorris Tech.",
+            "product": "Unmanned Vehicles",
+            "costs": 35000,
+            "profit": 340,
+            "conditions": "Bottom Line.Co shall not be liable to the Licensee, whether in contract, tort (including negligence) or otherwise for special, indirect, consequential or special damages, or for any loss of profits, opportunity or data, under any circumstances whatsoever, in connection with this Agreement. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "The Booing Company",
+            "product": "Rockets",
+            "costs": 54000,
+            "profit": 390,
+            "conditions": "Booing reserves the right to export the product to any company.The Supplier shall not be liable for any indirect, incidental, or consequential damages resulting from the use of the rockets in commercial and military use. (-10 morality)",
+            "morality": -10,
+            "reputation": 0
+        },
+        {
+            "company": "Ash Atyup Grit",
+            "Product": "Superglue",
+            "Costs": 20000,
+            "Profit": 420,
+            "conditions": "Ash Atyup Grit reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality, +5 reputation)",
+            "morality": -5,
+            "reputation": 5
+        },
+        {
+            "company": "Bell Corps",
+            "product": "Rockets",
+            "costs": 75000,
+            "profit": 360,
+            "conditions": "Both parties agree to keep all Confidential Information in strict confidence, and not to use it for any purpose other than as necessary for the performance of this agreement. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Juris & Co.",
+            "Product": "Glass Pitcher",
+            "Costs": 32000,
+            "Profit": 200,
+            "conditions": "Juris & Co. reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Tyrell Tyres Co.",
+            "product": "Tyres",
+            "costs": 70000,
+            "profit": 110,
+            "conditions": "Tyrell Tyres Co. reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 5,
+            "reputation": 5
+        },
+        {
+            "company": "Olyer Interactive",
+            "Product": "Remote Console",
+            "Costs": 200000,
+            "Profit": 300,
+            "conditions": "Olyer Interactive reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "Lorris Tech.",
+            "product": "Bomb Fuses",
+            "costs": 72000,
+            "profit": 440,
+            "conditions": "Bottom Line.Co shall not be liable to the Licensee, whether in contract, tort (including negligence) or otherwise for special, indirect, consequential or special damages, or for any loss of profits, opportunity or data, under any circumstances whatsoever, in connection with this Agreement. (-10 morality, -5 reputation)",
+            "morality": -10,
+            "reputation": -5
+        },
+        {
+            "company": "Blue Deli",
+            "product": "Knives",
+            "costs": 10000,
+            "profit": 460,
+            "conditions": "The terms and conditions of this agreement are confidential and shall not be disclosed to any third party without the prior written consent of Blue Deli, except as required by law. (-10 morality)",
+            "morality": -10,
+            "reputation": 0
+        },
+        {
+            "company": "Fortress Technologies",
+            "product": "Defender's Arsenal",
+            "costs": 50000,
+            "profit": 500,
+            "conditions": "This agreement constitutes the entire understanding between Fortress Technologies and the purchaser regarding the Defender's Arsenal product and supersedes all prior agreements and communications, whether written or oral. (-10 morality, -5 reputation)",
+            "morality": -10,
+            "reputation": -5
+        },
+        {
+            "company": "Cheesus",
+            "Product": "Chemistry Textbooks",
+            "Costs": 20000,
+            "Profit": 300,
+            "conditions": "Cheesus reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages. (+5 morality)",
+            "morality": 5,
+            "reputation": 0
+        },
+        {
+            "company": "Plio Co.",
+            "Product": "Educational Toys",
+            "Costs": 15000,
+            "Profit": 450,
+            "conditions": "Plio Co. reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages. (+5 morality)",
+            "morality": 5,
+            "reputation": 0
+        },
+        {
+            "company": "MACA",
+            "Product": "Weighted Blanket",
+            "Costs": 65000,
+            "Profit": 430,
+            "conditions": "MACA reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "CLS",
+            "Product": "Gaming Console",
+            "Costs": 80000,
+            "Profit": 290,
+            "conditions": "CLS reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages. (+5 reputation)",
+            "morality": 0,
+            "reputation": 5
+
+        },
+        {
+            "company": "Olyer Interactive",
+            "Product": "Hydraulic Piston",
+            "Costs": 15000,
+            "Profit": 380,
+            "conditions": "Olyer Interactive reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Armoured Vanguard",
+            "product": "Sentinel Defense",
+            "costs": 90000,
+            "profit": 700,
+            "conditions": "The terms and conditions of this agreement are confidential and shall not be disclosed to any third party without the prior written consent of Armored Vanguard, except as required by law. (-15 morality)",
+            "morality": -15,
+            "reputation": 0
+        },
+        {
+            "company": "BattleTech Solutions",
+            "product": "Guardian Armor",
+            "costs": 75000,
+            "profit": 610,
+            "conditions": "BattleTech Solutions makes no warranties, express or implied, for the Guardian Armor product. It is provided 'as is' without guarantees of performance or suitability. (-15 morality, -5 reputation)",
+            "morality": -15,
+            "reputation": -5
+        },
+        {
+            "company": "Sentinel Systems",
+            "product": "Combat Edge",
+            "costs": 80000,
+            "profit": 680,
+            "conditions": "Sentinel Systems is not liable for any failure to perform its obligations under this agreement if such failure is due to events beyond its control, including but not limited to natural disasters, war, or acts of government. (-15 morality)",
+            "morality": -15,
+            "reputation": 0
+        },
+        {
+            "company": "Zhyler Tab",
+            "Product": "Butcher Knives",
+            "Costs": 25000,
+            "Profit": 620,
+            "conditions": "Zhyler Tab reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality, +5 reputation)",
+            "morality": -10,
+            "reputation": 5
+        },
+        {
+            "company": "Ascremb",
+            "Product": "Commercial Acid",
+            "Costs": 15000,
+            "Profit": 750,
+            "conditions": "Ascremb reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-15 morality)",
+            "morality": -15,
+            "reputation": 0
+        },
+        {
+            "company": "Ascremb",
+            "Product": "Razors",
+            "Costs": 20000,
+            "Profit": 690,
+            "conditions": "Ascremb reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-10 morality)",
+            "morality": -10,
+            "reputation": 0
+        },
+        {
+            "company": "Hyporell",
+            "Product": "Handheld Taser",
+            "Costs": 50000,
+            "Profit": 800,
+            "conditions": "Hyporell reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-10 morality)",
+            "morality": -10,
+            "reputation": 0
+        },
+        {
+            "company": "Bell Corps",
+            "Product": "Syringes",
+            "Costs": 40000,
+            "Profit": 630,
+            "conditions": "Bell Corps reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+
+        },
+        {
+            "company": "McDaffy",
+            "Product": "Computer Monitors",
+            "Costs": 80000,
+            "Profit": 530,
+            "conditions": "McDaffy reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (+5 morality)",
+            "morality": 5,
+            "reputation": 0
+        },
+        {
+            "company": "McDaffy",
+            "Product": "Night Vision Goggles",
+            "Costs": 90000,
+            "Profit": 720,
+            "conditions": "McDaffy reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-15 morality)",
+            "morality": -15,
+            "reputation": 0
+        },
+        {
+            "company": "Iyam Jiff",
+            "Product": "Fireman Axe",
+            "Costs": 90000,
+            "Profit": 630,
+            "conditions": "Iyam Jiff reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality, +5 reputation)",
+            "morality": -5,
+            "reputation": 5
+        },
+        {
+            "company": "Woonam Limited",
+            "Product": "Hairspray",
+            "Costs": 70000,
+            "Profit": 600,
+            "conditions": "Woonam Limited reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-5 morality)",
+            "morality": -5,
+            "reputation": 0
+        },
+        {
+            "company": "Maggen",
+            "Product": "Leather Straps",
+            "Costs": 30000,
+            "Profit": 870,
+            "conditions": "Maggen reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-10 morality)",
+            "morality": -10,
+            "reputation": 0
+        },
+        {
+            "company": "Giwalo Studios",
+            "Product": "Camera Lens",
+            "Costs": 50000,
+            "Profit": 540,
+            "conditions": "Giwalo Studios reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (+5 reputation)",
+            "morality": 0,
+            "reputation": 5
+        },
+        {
+            "company": "Veran",
+            "Product": "Flashlight",
+            "Costs": 70000,
+            "Profit": 650,
+            "conditions": "Veran reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product.",
+            "morality": 0,
+            "reputation": 0
         },
         {
             "company": "The Booing Company",
             "product": "Missiles",
-            "costs": 12000000,
-            "profit": 10000,
-            "conditions": "1. Booing reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages resulting from the use of the war machines. (-20 morality)",
+            "costs": 120000,
+            "profit": 1200,
+            "conditions": "Booing reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages resulting from the use of the war machines. (-20 morality, -5 reputation)",
             "morality": -20,
+            "reputation": -5
+        },
+        {
+            "company": "Patriot Defense Co.",
+            "product": "Warpath Tactical",
+            "costs": 120000,
+            "profit": 1350,
+            "conditions": "All intellectual property rights for the Warpath Tactical product, including patents, trademarks, and copyrights, remain solely with Patriot Defense Co. The purchaser does not acquire any rights to these intellectual properties. (-20 morality)",
+            "morality": -20,
+            "reputation": 0
+        },
+        {
+            "company": "Ironclad Industries",
+            "product": "StrikeForce Systems",
+            "costs": 150000,
+            "profit": 1650,
+            "conditions": "Ironclad Industries is not liable for any indirect or consequential damages related to the StrikeForce Systems product. The total liability is limited to the amount paid for the product. (-20 morality, -5 reputation)",
+            "morality": -20,
+            "reputation": -5
+        },
+        {
+            "company": "Tactical Command",
+            "product": "Phantom Recon",
+            "costs": 100000,
+            "profit": 1400,
+            "conditions": "The Phantom Recon product may only be used for its intended purpose and must not be modified or repurposed without written permission from Tactical Command. (-20 morality)",
+            "morality": -20,
+            "reputation": 0
+        },
+        {
+            "company": "Warhawk Enterprises",
+            "product": "Stealth Ops Gear",
+            "costs": 200000,
+            "profit": 1700,
+            "conditions": "The purchaser agrees to protect Warhawk Enterprises from any claims or damages related to the use of the Stealth Ops Gear product. (-25 morality, - 10 reputation)",
+            "morality": -25,
+            "reputation": -10
+        },
+        {
+            "company": "Vanguard Defense",
+            "product": "Bravo Shield",
+            "costs": 500000,
+            "profit": 2220,
+            "conditions": "The purchaser agrees to keep all information related to the Bravo Shield product confidential and not disclose it to any third party without Vanguard Defense Corp's prior written consent. (-30 morality)",
+            "morality": -30,
+            "reputation": 0
+        },
+        {
+            "company": "Spearhead Defense Group",
+            "product": "Overwatch Solutions",
+            "costs": 250000,
+            "profit": 2320,
+            "conditions": "Failure by Spearhead Defense Group to enforce any provision of this agreement shall not be deemed a waiver of future enforcement of that or any other provision. (-30 morality, -10 reputation)",
+            "morality": -30,
+            "reputation": -10
+        },
+        {
+            "company": "Plio Co.",
+            "Product": "Chloroform",
+            "Costs": 60000,
+            "Profit": 2000,
+            "conditions": "Plio Co. reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-30 morality)",
+            "morality": -30,
+            "reputation": 0
+        },
+        {
+            "company": "Qimallo Incorporated",
+            "Product": "Combat Knife",
+            "Costs": 80000,
+            "Profit": 1500,
+            "conditions": "Qimallo Incorporated reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-10 morality, +5 reputation)",
+            "morality": -10,
+            "reputation": 5
+        },
+        {
+            "company": "Giwalo Studios",
+            "Product": "Telescopic Sight",
+            "Costs": 120000,
+            "Profit": 1850,
+            "conditions": "Giwalo Studios reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-20 morality, +5 reputation)",
+            "morality": -20,
+            "reputation": 5
+        },
+        {
+            "company": "Autonomous Synthetic Solutions",
+            "Product": "Toxic Gas",
+            "Costs": 90000,
+            "Profit": 4000,
+            "conditions": "Autonomous Synthetic Solutions reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-25 morality)",
+            "morality": -25,
+            "reputation": 0
+        },
+        {
+            "company": "Yee Lawn Mar",
+            "Product": "Gun Disguised as Phone",
+            "Costs": 80000,
+            "Profit": 3200,
+            "conditions": "Yee Lawn Mar reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-15 morality)",
+            "morality": -15,
+            "reputation": 0
+        },
+        {
+            "company": "Hyporell",
+            "Product": "Firearm Magazines",
+            "Costs": 50000,
+            "Profit": 1300,
+            "conditions": "Hyporell reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-20 morality)",
+            "morality": -20,
+            "reputation": 0
+        },
+        {
+            "company": "Hyporell",
+            "Product": "Magazines",
+            "Costs": 10000,
+            "Profit": 200,
+            "conditions": "Hyporell reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product.",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "The Booing Company",
+            "Product": "Rocket Launcher",
+            "Costs": 50000,
+            "Profit": 2000,
+            "conditions": "The Booing Company reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product. (-30 morality)",
+            "morality": -30,
+            "reputation": 0
+        },
+        {
+            "company": "Lorris Tech.",
+            "Product": "Padded Helmet",
+            "Costs": 80000,
+            "Profit": 1000,
+            "conditions": "Lorris Tech. reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages, nor be responsible for the buyers use of said product.",
+            "morality": 0,
             "reputation": 0
         }
     ]

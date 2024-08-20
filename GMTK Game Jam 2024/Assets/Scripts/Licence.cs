@@ -11,7 +11,14 @@ public class Licence : App
     [SerializeField] TextMeshProUGUI profitText;
     [SerializeField] TextMeshProUGUI tcText;
 
+    [SerializeField] DataManager dataManager;
+
     public LicenseData[] licenseDatas;
+
+    [SerializeField] LicenseReader licenseReader;
+
+    int currentPage;
+    bool hasAccepted = false;
 
     public override void OpenApp()
     {
@@ -24,6 +31,10 @@ public class Licence : App
         window.SetActive(true);
         window.transform.localScale = new Vector3(0,0,0);
         window.transform.DOScale(new Vector3(1,1,1), animationDuration);
+
+        if (hasAccepted == true){
+            dataManager.SpawnSignature();
+        }
     }
 
     public override void CloseApp()
@@ -32,6 +43,8 @@ public class Licence : App
         window.transform.DOScale(new Vector3(0,0,0), animationDuration).OnComplete(() => {
             window.SetActive(false);
         });
+
+        dataManager.DestroySignature();
     }
 
 
@@ -52,6 +65,22 @@ public class Licence : App
         costText.text = "Production Cost: " + licenseDatas[page].prodCosts.ToString();
         profitText.text = "Profit: " + licenseDatas[page].profit.ToString();
         tcText.text = licenseDatas[page].termsConditions;
+
+        currentPage = page;
+    }
+
+    public void Signed(){
+        print("signed");
+        hasAccepted = true;
+        dataManager.SpawnSignature();
+
+        int moneyChange = licenseDatas[currentPage].profit + licenseReader.IncentiveCheck(currentPage);
+        int moralityChange = licenseDatas[currentPage].morality;
+        int reputationChange = licenseDatas[currentPage].rep;
+
+        Debug.Log("f " + moneyChange);
+
+        dataManager.AcceptLicense(moneyChange, moralityChange, reputationChange);
     }
 }
 

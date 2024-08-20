@@ -20,13 +20,13 @@ public class SliderBar : MonoBehaviour
     void GetValue(){
         switch (variable) {
             case "money":
-                sliderValue = dataManager.Money / 1000000;     //max value = 1 million
+                sliderValue = (float) dataManager.Money / 1000000f;     //max value = 1 million
                 break;
             case "morality":
-                sliderValue = dataManager.Morality / 100;      //max value = 100
+                sliderValue = (float) dataManager.Morality / 100f;      //max value = 100
                 break;
             case "reputation":
-                sliderValue = dataManager.Reputation / 100;    //max value = 100
+                sliderValue = (float) dataManager.Reputation / 100f;    //max value = 100
                 break;
         }
     }
@@ -34,6 +34,7 @@ public class SliderBar : MonoBehaviour
     //function: start slow update of bar (when computer closes? just playing with features lmao)
     public void StartUpdate(){
         GetValue();
+        Debug.Log(sliderValue);
         slider.DOValue(sliderValue, 2f);
     }
 }

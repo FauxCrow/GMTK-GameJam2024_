@@ -24,6 +24,7 @@ public class DataManager : MonoBehaviour
 
     [SerializeField] PillManager pillManager;
 
+    [SerializeField] GameObject signature;
 
     // function: sets all variables to starting number
     public void Reset(){
@@ -99,13 +100,14 @@ public class DataManager : MonoBehaviour
 
     // function: set values when license is accepted
     // +/- should be included when function is called
-    void AcceptLicense(int moneyChange, int moralityChange, int reputationChange){
+    public void AcceptLicense(float moneyChange, float moralityChange, float reputationChange){
+        Debug.Log("be " + Money + " and " + moneyChange);
         Money += moneyChange;
         Morality += moralityChange;
         Reputation += reputationChange;
 
-        CheckMinMax();
-
+        //CheckMinMax();
+        Debug.Log("af " + Money + " and " + moneyChange);
         moneyBar.StartUpdate();
         moralityBar.StartUpdate();
         reputationBar.StartUpdate();
@@ -114,7 +116,11 @@ public class DataManager : MonoBehaviour
     }
 
     public void SpawnSignature(){
-        GameObject signature = Instantiate(SignaturePrefab);
+        signature = Instantiate(SignaturePrefab);
         signature.GetComponent<SpriteRenderer>().sprite = SignatureSprite;
+    }
+
+    public void DestroySignature(){
+        Destroy(signature);
     }
 }

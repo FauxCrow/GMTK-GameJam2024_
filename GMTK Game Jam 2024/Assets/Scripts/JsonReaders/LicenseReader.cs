@@ -11,6 +11,7 @@ public class LicenseReader : MonoBehaviour
     int lowerLimit;
     int upperLimit;
     int randomChance;
+    int emailLicense;
  
     void Start()
     {
@@ -22,22 +23,22 @@ public class LicenseReader : MonoBehaviour
         switch (currentDay){
             case <5:
                 lowerLimit = 0;
-                upperLimit = 1;
+                upperLimit = 15;
                 randomChance = 6;   // 16% chance
                 break;
             case <10:
                 lowerLimit = 0;
-                upperLimit = 20;
+                upperLimit = 30;
                 randomChance = 5;   // 20% chance
                 break;
             case <15:
-                lowerLimit = 10;
-                upperLimit = 40;
+                lowerLimit = 0;
+                upperLimit = 45;
                 randomChance = 4;   // 25% chance
                 break;
             case <20:
-                lowerLimit = 20;
-                upperLimit = 70;
+                lowerLimit = 15;
+                upperLimit = 60;
                 randomChance = 3;   // 33% chance
                 break;
             case >20:
@@ -55,7 +56,17 @@ public class LicenseReader : MonoBehaviour
 
             if (i == chosenLicense){
                 email.GenerateEmail(randomLicense);
+                emailLicense = randomLicense;
             }
+        }
+    }
+
+    public int IncentiveCheck(int choice){
+        if (choice == emailLicense){
+            return email.returnProfit();
+        }
+        else{
+            return 0;
         }
     }
 

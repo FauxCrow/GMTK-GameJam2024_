@@ -8,6 +8,8 @@ public class EmailReader : MonoBehaviour
     public TextAsset emailsJson;
     public Emails emails;
 
+    int emailProfit;
+
     void Start()
     {
         emails = JsonUtility.FromJson<Emails>(emailsJson.text);
@@ -20,6 +22,12 @@ public class EmailReader : MonoBehaviour
 
         // use above data to put in your email
         app.SetEmailDetails(subjectLine, content ,profit);
+
+        emailProfit = profit;
+    }
+
+    public int returnProfit(){
+        return emailProfit;
     }
 }
 
