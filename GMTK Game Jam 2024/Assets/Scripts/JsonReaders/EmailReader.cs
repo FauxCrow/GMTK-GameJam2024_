@@ -12,7 +12,7 @@ public class EmailReader : MonoBehaviour
         emails = JsonUtility.FromJson<Emails>(emailsJson.text);
     }
 
-    void GenerateEmail(int licenseNumber){
+    public void GenerateEmail(int licenseNumber){
         string subjectLine = emails.emails[licenseNumber].subject;
         string content = emails.emails[licenseNumber].details;
         int profit = emails.emails[licenseNumber].incentive;

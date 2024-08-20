@@ -1,11 +1,40 @@
 {
     "licenses": [
         {
-            "company": "company1",
-            "product": "product1",
-            "costs": 100,
+            "company": "The Booing Company",
+            "product": "Aircrafts",
+            "costs": 150000,
             "profit": 100,
-            "conditions": "a lot"
+            "conditions": "a lot",
+            "morality": 0,
+            "reputation": 10
+        },
+        {
+            "company": "",
+            "product": "",
+            "costs": 0,
+            "profit": 0,
+            "conditions": "",
+            "morality": 0,
+            "reputation": 0
+        },
+        {
+            "company": "IronClad Industries",
+            "product": "StrikeForce Systems",
+            "costs": 150000,
+            "profit": 100,
+            "conditions": "a lot",
+            "morality": 10,
+            "reputation": 10
+        },
+        {
+            "company": "The Booing Company",
+            "product": "Missiles",
+            "costs": 12000000,
+            "profit": 10000,
+            "conditions": "1. Booing reserves the right to export the product to any company. The Supplier shall not be liable for any indirect, incidental, or consequential damages resulting from the use of the war machines. (-20 morality)",
+            "morality": -20,
+            "reputation": 0
         }
     ]
 }
