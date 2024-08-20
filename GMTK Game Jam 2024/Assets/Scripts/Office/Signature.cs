@@ -138,7 +138,5 @@ public class Signature : MonoBehaviour
     public void SaveText(){
         Sprite newSprite = Sprite.Create(generatedTexture, new Rect(0, 0, generatedTexture.width, generatedTexture.height), new Vector2(0.5f, 0.5f));
         manager.SignatureSprite = newSprite;
-
-        //manager.SpawnSignature(); for testing
     }
 }
