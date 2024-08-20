@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] DataManager dataManager;
     [SerializeField] PillManager pillManager;
     [SerializeField] TimeManager timeManager;
+
+    [Header("License")]
+    [SerializeField] LicenseReader licenseReader;
+    [SerializeField] Licence licenseApp;
     
     [Header("Black Screen")]
     [SerializeField] CanvasGroup fadeScreen;
@@ -20,7 +24,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject rightArm;
     [SerializeField] Signature signature;
 
-    public bool GameInPlay {get; private set;}
+    public bool GameInPlay {get; set;}
 
     void Start()
     {
@@ -83,7 +87,20 @@ public class GameManager : MonoBehaviour
         pillManager.SpawnPill();
         rightArm.SetActive(true);
 
+        licenseReader.NewLicenses(timeManager.currentDay);
+        licenseApp.NotificationAlert();
+
         GameInPlay = true;
+    }
+
+    public void StartNewDay(){
+        ChangeScene(() => {
+            GameInPlay = true;
+            timeManager.ResetTime();
+            timeManager.StartTimer();
+            licenseReader.NewLicenses(timeManager.currentDay);
+            licenseApp.NotificationAlert();
+        });
     }
 
     void ChangeScene(Action action){

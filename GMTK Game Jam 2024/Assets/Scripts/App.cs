@@ -13,4 +13,5 @@ public class App : MonoBehaviour, IApp
 
     public virtual void OpenApp(){}
     public virtual void CloseApp(){}
+    public virtual void NotificationAlert(){}
 }

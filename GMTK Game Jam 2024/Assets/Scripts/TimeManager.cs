@@ -7,6 +7,7 @@ public class TimeManager : MonoBehaviour
 {
     [SerializeField] TextMeshPro clocktext;
     [SerializeField] TextMeshPro dayText;
+    [SerializeField] GameManager gm;
 
     public float timeMultipler;
 
@@ -18,7 +19,7 @@ public class TimeManager : MonoBehaviour
 
     float totalTime;
     float currentTime;
-    int currentDay;
+    public int currentDay;
 
     public void ResetTime(){
         totalTime = 180f;
@@ -38,20 +39,23 @@ public class TimeManager : MonoBehaviour
 
     void Update()
     {
+        if(!gm.GameInPlay) return;
         totalTime += Time.deltaTime * timeMultipler;
         currentTime = totalTime % dayDuration;
 
         clocktext.text = Clock24Hour();
 
-        if(totalTime == 360f){
+        if((int)totalTime == 360){
             CheckEndOfDay();
         }
     }
 
     void CheckEndOfDay(){
         currentDay++;
-        dayText.text = "Current Day: " + currentDay;
+        // dayText.text = "Current Day: " + currentDay;
         StopTimer();
+        gm.StartNewDay();
+        gm.GameInPlay = false;
     }
 
     public float GetHour()

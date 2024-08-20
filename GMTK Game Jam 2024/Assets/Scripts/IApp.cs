@@ -6,4 +6,5 @@ public interface IApp
 {
     void OpenApp();
     void CloseApp();
+    void NotificationAlert();
 } 
