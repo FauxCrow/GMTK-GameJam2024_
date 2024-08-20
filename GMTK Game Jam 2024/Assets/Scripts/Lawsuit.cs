@@ -30,10 +30,10 @@ public class Lawsuit : App
         });
     }
 
-    public void SetLawsuit(LawsuitData data){
-        caseNumber.text = "Case Number:" + Random.Range(0, 999).ToString("000");
-        details.text = data.LawsuitDetails;
-        payoff.text = "Payoff:" + "\n" + "$" + data.PayoffValue.ToString();
-        fightInCourt.text = "Fight:" + "\n" + "$" + data.FightValue.ToString();
+    public void SetLawsuit(int number, string info, int pay, int fight){
+        caseNumber.text = "Case Number:" + number;
+        details.text = info;
+        payoff.text = "Payoff:" + "\n" + "$" + pay;
+        fightInCourt.text = "Fight:" + "\n" + "$" + fight;
     }
 }

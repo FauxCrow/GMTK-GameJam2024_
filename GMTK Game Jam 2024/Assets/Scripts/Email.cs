@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using TMPro;
 
 public class Email : App
 {
     [SerializeField] GameObject emailPrefab;
     [SerializeField] Transform emailViewport;
+    [SerializeField] TextMeshProUGUI sender, shortc, details; 
 
     public override void OpenApp()
     {
@@ -18,7 +20,6 @@ public class Email : App
         window.SetActive(true);
         window.transform.localScale = new Vector3(0,0,0);
         window.transform.DOScale(new Vector3(1,1,1), animationDuration);
-        GenerateEmails();
     }
 
     public override void CloseApp()
@@ -29,16 +30,11 @@ public class Email : App
         });
     }
 
-    void GenerateEmails()
+    public void SetEmailDetails(string sender, string content, int details)
     {
         //Instantiate Emails into the scroll view
-        //Get the number of emails from the datamanager
-    }
-
-    void SetEmailDate(EmailData data)
-    {
-        GameObject email = Instantiate(emailPrefab,emailViewport);
-        EmailSingle em = email.GetComponent<EmailSingle>();
-        em.SetEmail(data);
+        this.sender.text = sender;
+        shortc.text = content;
+        this.details.text = details.ToString();
     }
 }
