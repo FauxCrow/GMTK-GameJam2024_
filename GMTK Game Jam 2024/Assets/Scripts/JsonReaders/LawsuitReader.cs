@@ -6,6 +6,7 @@ public class LawsuitReader : MonoBehaviour
 {
     public TextAsset lawsuitJson;
     public Lawsuits lawsuits;
+    [SerializeField] Lawsuit app;
  
     void Start()
     {
@@ -19,6 +20,7 @@ public class LawsuitReader : MonoBehaviour
         int payOff = lawsuits.lawsuits[lawsuitNo].pay;
 
         // use above data to put in your lawsuit
+        app.SetLawsuit(lawsuitNo, lawsuitInfo, fight, payOff);
     }
 }
 

@@ -1,11 +1,8 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.Tracing;
 using UnityEngine;
 
 public class LicenseReader : MonoBehaviour
 {
+    public Licence app;
     public TextAsset licensesJson;
     public Licenses licenses;
     public LawsuitReader lawsuit;
@@ -18,16 +15,6 @@ public class LicenseReader : MonoBehaviour
     void Start()
     {
         licenses = JsonUtility.FromJson<Licenses>(licensesJson.text);
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
-        LawsuitCheck();
     }
 
     // function generate 3 licenses for each day
@@ -35,7 +22,7 @@ public class LicenseReader : MonoBehaviour
         switch (currentDay){
             case <5:
                 lowerLimit = 0;
-                upperLimit = 10;
+                upperLimit = 1;
                 randomChance = 6;   // 16% chance
                 break;
             case <10:
@@ -105,6 +92,22 @@ public class LicenseReader : MonoBehaviour
         int reputation = licenses.licenses[randomLicense].reputation;
 
         // use above data to put in your license, depending on license no (1-3)
+
+        LicenseData data = new()
+        {
+            companyName = companyName,
+            productName = productName,
+            termsConditions = termsConditions,
+            prodCosts = productionCosts,
+            profit = profit,
+            morality = morality,
+            rep = reputation,
+            number = licenseNo
+        };
+
+        Debug.Log($"{data}, {app}");
+
+        app.SetLicense(data);
 
         return randomLicense;
     }

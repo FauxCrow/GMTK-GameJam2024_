@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EmailReader : MonoBehaviour
 {
+    [SerializeField] Email app;
     public TextAsset emailsJson;
     public Emails emails;
 
@@ -18,6 +19,7 @@ public class EmailReader : MonoBehaviour
         int profit = emails.emails[licenseNumber].incentive;
 
         // use above data to put in your email
+        app.SetEmailDetails(subjectLine, content ,profit);
     }
 }
 
