@@ -19,8 +19,8 @@ public class Window : MonoBehaviour
         windowUpdate();
     }
 
-    // function: call when player completes a task -- checks morality for window sprite
-    void windowUpdate(){
+    // function: call when player opens computer -- checks morality for window sprite
+    public void windowUpdate(){
 
         switch(dataManager.Morality){
             case > 90:

@@ -42,13 +42,11 @@ public class SliderBar : MonoBehaviour
 
     // coroutine: slowly update bar value
     IEnumerator updateBar() {
-        float increment = (newValue - slider.value)/3;
+        float increment = (newValue - slider.value)/2;
+            
         int i = 0;
-
-        print(increment);
-
-        // slow increase over 3 seconds
-        while (i < 3){
+        // slow increase over 2 seconds
+        while (i < 2){
             slider.value += increment;
             yield return new WaitForSecondsRealtime(1); //Wait 1 second
             i++;
