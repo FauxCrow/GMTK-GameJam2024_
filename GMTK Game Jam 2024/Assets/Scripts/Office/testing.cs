@@ -23,6 +23,6 @@ public class testing : MonoBehaviour
     IEnumerator test(){
         yield return new WaitForSecondsRealtime(3);
         dataManager.Morality = 50;
-        sliderBar.startUpdate();
+        sliderBar.StartUpdate();
     }
 }

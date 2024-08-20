@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class OfficerMonitor : MonoBehaviour
 {
+    [SerializeField] GameManager gm;
+
     public Camera officeCamera, desktopCamera;
     public RenderTexture monitorTex;
     public Window window;
 
     void OnMouseDown()
     {
+        if(!gm.GameInPlay) return;
         desktopCamera.targetTexture = null;
-        window.windowUpdate();      // updates window sprite when computer open only :)
+        window.WindowUpdate();      // updates window sprite when computer open only :)
 
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && gm.GameInPlay){
+            desktopCamera.targetTexture = monitorTex;
+        }
+    }
+
+    public void Reset(){
+        desktopCamera.targetTexture = monitorTex;
     }
 
     //For some reason setting the targetTexture to null changes the camera

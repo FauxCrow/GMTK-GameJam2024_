@@ -15,12 +15,12 @@ public class SliderBar : MonoBehaviour
     void Start()
     {
         slider = GetComponent<Slider>();
-        getValue();
+        GetValue();
         slider.value = newValue;
     }
 
     //function: set slider value based on variable number from data manager
-    void getValue(){
+    void GetValue(){
         switch (variable) {
             case "money":
                 newValue = dataManager.Money / 1000000;     //max value = 1 million
@@ -35,13 +35,13 @@ public class SliderBar : MonoBehaviour
     }
 
     //function: start slow update of bar (when computer closes? just playing with features lmao)
-    public void startUpdate(){
-        getValue();
-        StartCoroutine(updateBar());
+    public void StartUpdate(){
+        GetValue();
+        StartCoroutine(UpdateBar());
     }
 
     // coroutine: slowly update bar value
-    IEnumerator updateBar() {
+    IEnumerator UpdateBar() {
         float increment = (newValue - slider.value)/2;
             
         int i = 0;
