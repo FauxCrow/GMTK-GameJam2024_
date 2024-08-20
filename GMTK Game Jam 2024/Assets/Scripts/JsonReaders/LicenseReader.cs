@@ -72,11 +72,10 @@ public class LicenseReader : MonoBehaviour
 
     // function: generate a lawsuit on a random chance after risky choices
     public void LawsuitCheck(){
-        /*
+        
         if (RandomInt(0, randomChance) == 0){
             lawsuit.GenerateLawsuit();
-        }*/
-        lawsuit.GenerateLawsuit();
+        }
     }
 
     // function: generate an email for a random license on a random chance
