@@ -36,6 +36,7 @@ public class Clinic : App
         //Deduct Money
         //Reset bottle on screen
         //Set Delivery if needed
+        Debug.Log("Conmfirm purhcase");
 
         dataManager.BuyPill();      // manages money variable
         price.text = "$" + dataManager.PillPrice.ToString();        // only seems to work when you first open

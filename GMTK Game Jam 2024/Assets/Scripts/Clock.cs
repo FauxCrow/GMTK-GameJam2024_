@@ -13,6 +13,6 @@ public class Clock : MonoBehaviour
 
     void Update()
     {
-        clockText.text = tm.Clock24Hour();
+        // clockText.text = tm.Clock24Hour();
     }
 }

@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
+    [SerializeField] TextMeshPro clocktext;
+    [SerializeField] TextMeshPro dayText;
+
     public float timeMultipler;
 
     public const int hoursInDay = 24;
@@ -12,13 +16,42 @@ public class TimeManager : MonoBehaviour
     [InspectorName("Day Duration in seconds")]
     public float dayDuration;
 
-    float totalTime = 0;
-    float currentTime = 0;
+    float totalTime;
+    float currentTime;
+    int currentDay;
+
+    public void ResetTime(){
+        totalTime = 180f;
+    }
+
+    public void StartTimer(){
+        timeMultipler = 1f;
+    }
+
+    public void StopTimer(){
+        timeMultipler = 0f;
+    }
+
+    void ResetDay(){
+        currentDay = 0;
+    }
 
     void Update()
     {
         totalTime += Time.deltaTime * timeMultipler;
         currentTime = totalTime % dayDuration;
+
+        clocktext.text = Clock24Hour();
+
+        if(totalTime == 360f){
+            CheckEndOfDay();
+        }
+    }
+
+    void CheckEndOfDay(){
+        currentDay++;
+        dayText.text = "Current Day: " + currentDay;
+        StopTimer();
     }
 
     public float GetHour()
@@ -34,5 +67,10 @@ public class TimeManager : MonoBehaviour
     public string Clock24Hour()
     {
         return Mathf.FloorToInt(GetHour()).ToString("00") +":" + Mathf.FloorToInt(GetMinute()).ToString("00");   
+    }
+
+    public void ResetAll(){
+        ResetDay();
+        ResetTime();
     }
 }

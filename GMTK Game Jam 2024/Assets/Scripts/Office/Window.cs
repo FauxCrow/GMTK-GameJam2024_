@@ -16,11 +16,11 @@ public class Window : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentState = 0;
 
-        windowUpdate();
+        WindowUpdate();
     }
 
     // function: call when player opens computer -- checks morality for window sprite
-    public void windowUpdate(){
+    public void WindowUpdate(){
 
         switch(dataManager.Morality){
             case > 90:

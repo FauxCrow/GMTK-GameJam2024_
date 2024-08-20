@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,47 +10,30 @@ public class SliderBar : MonoBehaviour
     public string variable;
     public DataManager dataManager;
     private Slider slider;
-    private float newValue;
-
-    // Start is called before the first frame update
-    void Start()
-    {
+    private float sliderValue;
+    
+    void Awake(){
         slider = GetComponent<Slider>();
-        getValue();
-        slider.value = newValue;
     }
 
     //function: set slider value based on variable number from data manager
-    void getValue(){
+    void GetValue(){
         switch (variable) {
             case "money":
-                newValue = dataManager.Money / 1000000;     //max value = 1 million
+                sliderValue = dataManager.Money / 1000000;     //max value = 1 million
                 break;
             case "morality":
-                newValue = dataManager.Morality / 100;      //max value = 100
+                sliderValue = dataManager.Morality / 100;      //max value = 100
                 break;
             case "reputation":
-                newValue = dataManager.Reputation / 100;    //max value = 100
+                sliderValue = dataManager.Reputation / 100;    //max value = 100
                 break;
         }
     }
 
     //function: start slow update of bar (when computer closes? just playing with features lmao)
-    public void startUpdate(){
-        getValue();
-        StartCoroutine(updateBar());
-    }
-
-    // coroutine: slowly update bar value
-    IEnumerator updateBar() {
-        float increment = (newValue - slider.value)/2;
-            
-        int i = 0;
-        // slow increase over 2 seconds
-        while (i < 2){
-            slider.value += increment;
-            yield return new WaitForSecondsRealtime(1); //Wait 1 second
-            i++;
-        }
+    public void StartUpdate(){
+        GetValue();
+        slider.DOValue(sliderValue, 2f);
     }
 }
