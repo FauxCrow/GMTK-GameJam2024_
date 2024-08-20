@@ -46,6 +46,11 @@ public class Signature : MonoBehaviour
     float xMult;
     float yMult;
  
+    void OnEnable(){
+        if(generatedTexture == null) return;
+        ResetColor();
+    }
+    
     private void Start()
     {
         //Initializing the colorMap array with width * height elements

@@ -26,7 +26,7 @@ public class DataManager : MonoBehaviour
 
     // function: sets all variables to starting number
     public void Reset(){
-        Money = 0;
+        Money = 100;
         Morality = 100;
         Reputation = 100;
         Licenses = 0;
@@ -41,7 +41,7 @@ public class DataManager : MonoBehaviour
 
     // Guard Function: ensure maximum / minimum on variables
     void CheckMinMax(){
-        if (Money < 0) { Money = 0; }
+        Money = Mathf.Clamp(Money, 0, Mathf.Infinity);
 
         if (Morality > 100){ Morality = 100; }
         else if (Morality < 0){ Morality = 0; }
@@ -55,7 +55,7 @@ public class DataManager : MonoBehaviour
     public void BuyPill(){
         if (Money > PillPrice) {
             Money -= PillPrice;
-            moneyBar.startUpdate();
+            moneyBar.StartUpdate();
 
             PillPrice += 20;
             pillManager.SpawnPill();    // manages pill queue
@@ -69,7 +69,7 @@ public class DataManager : MonoBehaviour
         
         CheckMinMax();
         
-        moralityBar.startUpdate();
+        moralityBar.StartUpdate();
     }
 
     // function: restore reputation when lawsuit is quietly paid off
@@ -81,8 +81,8 @@ public class DataManager : MonoBehaviour
 
             CheckMinMax();
 
-            moneyBar.startUpdate();
-            reputationBar.startUpdate();
+            moneyBar.StartUpdate();
+            reputationBar.StartUpdate();
         }
     }
 
@@ -95,8 +95,8 @@ public class DataManager : MonoBehaviour
 
             CheckMinMax();
 
-            moneyBar.startUpdate();
-            reputationBar.startUpdate();
+            moneyBar.StartUpdate();
+            reputationBar.StartUpdate();
         }
     }
 
@@ -109,9 +109,9 @@ public class DataManager : MonoBehaviour
 
         CheckMinMax();
 
-        moneyBar.startUpdate();
-        moralityBar.startUpdate();
-        reputationBar.startUpdate();
+        moneyBar.StartUpdate();
+        moralityBar.StartUpdate();
+        reputationBar.StartUpdate();
 
         Licenses++;
     }

@@ -6,39 +6,25 @@ using UnityEngine;
 public class PillManager : MonoBehaviour
 {
     [SerializeField] DataManager dataManager;
-    [SerializeField] GameObject armL;
+    [SerializeField] Arms arms;
     [SerializeField] GameObject pillPrefab;
     [SerializeField] Queue<GameObject> pills = new Queue<GameObject>();
+    [SerializeField] BoxCollider2D spawnRegion;
 
-    //Vector2 startPos = ();
-
-    // Start is called before the first frame update
-    void Start()
+    public void SpawnPill()
     {
-        SpawnPill();
-    }
+        Debug.Log("SpawnPill() from PillManager");
 
-    public void SpawnPill(){
-        float yOffset = (float) 1 * pills.Count;   // depends on how many pills you have bought
+        float randomXPoint = Random.Range(spawnRegion.bounds.min.x, spawnRegion.bounds.max.x);
+        float randomYPoint = Random.Range(spawnRegion.bounds.min.y, spawnRegion.bounds.max.y);
 
-        GameObject pill = Instantiate(pillPrefab, this.transform);
-        pill.GetComponent<PillBottle>().arm = armL;
-        pill.transform.position = new Vector2(-1.65f, -1.275f + yOffset);
-
-        pills.Enqueue(pill);
+        GameObject bottle = Instantiate(pillPrefab, new Vector3(randomXPoint, randomYPoint, -1), Quaternion.identity);
+        bottle.transform.SetParent(transform);
+        PillBottle pb = bottle.GetComponent<PillBottle>();
+        pb.SetPill(arms, this);
     }
 
     public void TakePill(){
-        if (pills.Count > 0) {
-            GameObject removed = pills.Peek();
-            removed.GetComponent<PillBottle>().ArmMove();
-
-            pills.Dequeue();
-            dataManager.RestoreMorality();
-
-            foreach (GameObject pill in pills){
-                pill.GetComponent<PillBottle>().DropAnim();
-            }
-        }
+        dataManager.RestoreMorality();
     }
 }
