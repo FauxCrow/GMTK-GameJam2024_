@@ -296,6 +296,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &890424425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890424427}
+  - component: {fileID: 890424426}
+  m_Layer: 0
+  m_Name: test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &890424426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890424425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bcd4354c1e8acd419ac707162711477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Assets/DataFiles/LicenseData.json
+  licensesJson: {fileID: 4900000, guid: 3474b28648b203944b3edaf1add7eca7, type: 3}
+  licenses:
+    licenses: []
+--- !u!4 &890424427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890424425}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.507439, y: 0.8315804, z: 90.04128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &951288675
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,7 +881,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2518681493050213504, guid: d0425392ff262a44f81cf3e720528039, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 379.25986
+      value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 2619389499263653343, guid: d0425392ff262a44f81cf3e720528039, type: 3}
       propertyPath: m_LocalPosition.x
@@ -916,3 +964,4 @@ SceneRoots:
   - {fileID: 5777898643059114791}
   - {fileID: 1696749916}
   - {fileID: 5799819221918944383}
+  - {fileID: 890424427}

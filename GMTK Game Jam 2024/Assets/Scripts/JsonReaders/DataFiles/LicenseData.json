@@ -1,0 +1,11 @@
+{
+    "licenses": [
+        {
+            "company": "company1",
+            "product": "product1",
+            "costs": 100,
+            "profit": 100,
+            "conditions": "a lot"
+        }
+    ]
+}
