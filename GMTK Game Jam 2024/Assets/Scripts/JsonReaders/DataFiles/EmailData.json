@@ -1,9 +1,386 @@
 {
     "emails": [
         {
-            "subject": "money time",
-            "details": "hey gimme some money",
-            "incentive": 10000
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's projects, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for The Booing Company",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the The Booing Company's projects, we are offering a confidential incentive of $60. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJessica Wong\nThe Booing Company",
+            "incentive": 60
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Bell Corps",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Bell Corps's projects, we are offering a confidential incentive of $70. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nAlex Tan\nBell Corps",
+            "incentive": 70
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Hollins",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Hollins's projects, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nKenya Wagner\nHollins",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $70. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 70
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Bell Corps",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Bell Corps's project, we are offering a confidential incentive of $40. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nAlex Tan\nBell Corps",
+            "incentive": 40
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Lorris Tech.",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Lorris Tech's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nBen Conrad\nLorris Tech.",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Lorris Tech.",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Lorris Tech's project, we are offering a confidential incentive of $80. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nBen Conrad\nLorris Tech.",
+            "incentive": 80
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Maggen",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Maggen's project, we are offering a confidential incentive of $60. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nElbert Changh\nMaggen",
+            "incentive": 60
+        }
+        
+        ,
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
+        },
+        {
+            "subject": "Subject: Confidential Proposal for Blue Deli",
+            "details": "Dear John,\nI hope this message finds you well.\nTo support the smooth progress of the Blue Deli's project, we are offering a confidential incentive of $50. This amount is intended to facilitate the efficient processing of our agreement and accelerate the timeline.\nPlease keep this proposal confidential. Let me know if you’re available to discuss further details.\n\nBest regards,\nJohn Smith\nBlue Deli",
+            "incentive": 50
         }
     ]
 }
